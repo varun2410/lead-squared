@@ -1,0 +1,47 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.score-area {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+}
+
+.score-area > span {
+    margin-right: 5px;
+}
+
+.game-column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.game-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.game-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.game-controllers {
+    display: flex;
+    justify-content: center;
+}
+
+.controllers-button {
+    width: 70px;
+    margin: 20px;
+}
+
+.modal-font {
+    font-size: 20px !important;
+}
