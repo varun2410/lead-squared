@@ -27,7 +27,7 @@ class GameComponent extends Component {
     this.setState({
       correctCircle: getRandomInt(35),
       score: 0,
-    }, () => console.log(this.state.correctCircle));
+    });
   }
 
   stopGame() {
@@ -53,7 +53,6 @@ class GameComponent extends Component {
     if (parseInt(selectedCircle) === correctCircle) {
       updatedScore = score + 1;
       newCorrectCircle = getRandomInt(35);
-      console.log(newCorrectCircle);
     } else {
       updatedScore = score - 1;
     }
